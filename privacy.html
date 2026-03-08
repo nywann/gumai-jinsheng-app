@@ -1,185 +1,214 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Privacy Policy | DaoGrove Labs</title>
+<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>古脈今聲 Privacy Policy | 隱私政策</title>
     <style>
-        :root {
-            --bg-color: #fdfdfc;
-            --text-color: #2d3436;
-            --accent-color: #4a5568;
-            --border-color: #e2e8f0;
-            --max-width: 800px;
-        }
-
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-            background-color: var(--bg-color);
-            color: var(--text-color);
-            line-height: 1.6;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
-
-        header {
-            width: 100%;
-            max-width: var(--max-width);
-            padding: 40px 20px;
-            text-align: center;
-            border-bottom: 1px solid var(--border-color);
-        }
-
-        .logo {
-            max-width: 120px;
-            height: auto;
-            margin-bottom: 20px;
-        }
-
-        h1 {
-            font-weight: 300;
-            letter-spacing: 1px;
-            margin: 0;
-            font-size: 1.8rem;
-            text-transform: uppercase;
-        }
-
-        main {
-            width: 100%;
-            max-width: var(--max-width);
-            padding: 40px 20px;
-            box-sizing: border-box;
-        }
-
-        .meta-info {
-            font-size: 0.9rem;
-            color: var(--accent-color);
-            margin-bottom: 40px;
-        }
-
-        section {
-            margin-bottom: 30px;
-        }
-
-        h2 {
-            font-size: 1.2rem;
-            font-weight: 600;
-            border-left: 3px solid var(--accent-color);
-            padding-left: 15px;
-            margin-bottom: 15px;
-        }
-
-        p, li {
-            font-size: 1rem;
-            color: #4a5568;
-        }
-
-        ul {
-            padding-left: 20px;
-        }
-
-        li {
-            margin-bottom: 10px;
-        }
-
-        footer {
-            width: 100%;
-            max-width: var(--max-width);
-            padding: 40px 20px;
-            text-align: center;
-            font-size: 0.8rem;
-            color: #a0aec0;
-            border-top: 1px solid var(--border-color);
-        }
-
-        .contact-box {
-            background: #f7fafc;
-            padding: 20px;
-            border-radius: 8px;
-            border: 1px solid var(--border-color);
-        }
-
-        a {
-            color: var(--accent-color);
-            text-decoration: underline;
-        }
-
-        @media (max-width: 600px) {
-            h1 { font-size: 1.5rem; }
-            main { padding: 20px; }
-        }
+      :root {
+        --bg: #f6f8fb;
+        --card: #ffffff;
+        --text: #0f172a;
+        --muted: #475569;
+        --line: #dbe5ee;
+        --primary: #0284c7;
+      }
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang TC",
+          "Noto Sans TC", "Microsoft JhengHei", sans-serif;
+        background: var(--bg);
+        color: var(--text);
+        line-height: 1.65;
+      }
+      .wrap {
+        max-width: 920px;
+        margin: 0 auto;
+        padding: 24px 16px 48px;
+      }
+      .hero {
+        background: linear-gradient(135deg, #e0f2fe 0%, #f0f9ff 100%);
+        border: 1px solid #bae6fd;
+        border-radius: 16px;
+        padding: 18px;
+        display: flex;
+        gap: 14px;
+        align-items: center;
+      }
+      .logo {
+        width: 52px;
+        height: 52px;
+        border-radius: 12px;
+        object-fit: cover;
+        background: #fff;
+        border: 1px solid #d7ecf5;
+      }
+      h1 {
+        margin: 0;
+        font-size: 26px;
+        line-height: 1.25;
+      }
+      .sub {
+        margin-top: 4px;
+        color: #075985;
+        font-size: 13px;
+      }
+      .lang-block {
+        margin-top: 16px;
+        background: var(--card);
+        border: 1px solid var(--line);
+        border-radius: 14px;
+        padding: 18px;
+      }
+      h2 {
+        margin: 0 0 10px;
+        font-size: 20px;
+        color: var(--primary);
+      }
+      h3 {
+        margin: 20px 0 8px;
+        font-size: 16px;
+      }
+      p, li { margin: 0 0 8px; color: var(--text); }
+      .muted { color: var(--muted); }
+      ul { margin: 0 0 8px 20px; padding: 0; }
+      .foot {
+        margin-top: 16px;
+        font-size: 12px;
+        color: var(--muted);
+      }
+      a { color: var(--primary); text-decoration: none; }
+      a:hover { text-decoration: underline; }
     </style>
-</head>
-<body>
+  </head>
+  <body>
+    <main class="wrap">
+      <section class="hero">
+        <img class="logo" src="./logo.png" alt="DaoGrove Labs logo" />
+        <div>
+          <h1>古脈今聲 Privacy Policy | 隱私政策</h1>
+          <div class="sub">DaoGrove Labs · Effective Date / 生效日期: March 7, 2026</div>
+        </div>
+      </section>
 
-<header>
-    <img src="logo.png" alt="DaoGrove Labs Logo" class="logo">
-    <h1>DaoGrove Labs</h1>
-</header>
+      <section class="lang-block">
+        <h2>繁體中文</h2>
+        <p><strong>古脈今聲（Gumai Jinsheng）隱私政策</strong></p>
+        <p class="muted">營運方：DaoGrove Labs（「我們」）</p>
 
-<main>
-    <div class="meta-info">
-        <strong>Privacy Policy</strong><br>
-        Effective Date: March 7, 2026
-    </div>
+        <h3>1. 簡介</h3>
+        <p>本政策說明你使用古脈今聲時，我們如何收集、使用、儲存與保護資料。</p>
 
-    <section>
-        <h2>1. Scope</h2>
-        <p>
-            DaoGrove Labs ("we," "our," or "us") operates a suite of mobile applications including 
-            <strong>古脈今聲 (Gumai Jinsheng)</strong> and <strong>Oracle Union</strong>. This policy outlines our commitment 
-            to your privacy across all services provided under the DaoGrove Labs brand.
-        </p>
-    </section>
-
-    <section>
-        <h2>2. Data Collection & Usage</h2>
-        <p>We prioritize user anonymity and technical simplicity. Our apps are designed to function without requiring user accounts or the collection of personal identifiers.</p>
+        <h3>2. 我們收集的資料</h3>
         <ul>
-            <li><strong>Personal Information:</strong> We do not collect, store, or sell names, phone numbers, or physical addresses.</li>
-            <li><strong>Translation Processing (古脈今聲):</strong> Classical Chinese text entered for translation is processed via secure AI services to generate modern language outputs. This data is used solely for the real-time processing of your request.</li>
-            <li><strong>Divination Data (Oracle Union):</strong> Inputs for tarot, Chinese divination, or assessments are processed temporarily to generate results and are not retained on our servers.</li>
+          <li>帳戶資料：電子郵件地址與身份驗證相關識別資料。</li>
+          <li>密碼由你自行設定並輸入；我們不會在 App 內以明文保存密碼。密碼驗證由身份驗證供應商處理。</li>
+          <li>個人檔案資料（可選）：你主動上傳的頭像與顯示名稱。</li>
+          <li>內容資料：你輸入/上傳的文本、專案、章節、翻譯結果與編輯內容。</li>
+          <li>用量與訂閱資料：方案、配額、已使用字數與相關事件紀錄。</li>
+          <li>技術資料：必要會話資料與系統運作記錄（如錯誤/安全記錄）。</li>
         </ul>
-    </section>
 
-    <section>
-        <h2>3. Third-Party Services</h2>
-        <p>
-            Our applications may utilize cloud-based AI models to provide high-quality linguistic and analytical results. 
-            These third-party providers are strictly limited to processing data for the immediate fulfillment of app functions 
-            and are prohibited from using your inputs for any other purpose.
-        </p>
-    </section>
+        <h3>3. 我們如何使用資料</h3>
+        <ul>
+          <li>建立與管理帳戶。</li>
+          <li>提供文本解析與 AI 翻譯功能。</li>
+          <li>儲存你的專案與章節內容，讓你可持續編輯與閱讀。</li>
+          <li>執行訂閱與字數配額管理。</li>
+          <li>維持服務穩定、偵錯與防止濫用。</li>
+        </ul>
 
-    <section>
-        <h2>4. Data Security</h2>
-        <p>
-            We implement industry-standard encryption and technical measures to protect data while in transit between your 
-            device and our processing partners.
-        </p>
-    </section>
+        <h3>4. 第三方服務與 AI 處理</h3>
+        <p>我們使用第三方服務提供功能，包括但不限於：</p>
+        <ul>
+          <li>Supabase（身份驗證、資料庫、儲存）。</li>
+          <li>AI 推論供應商（例如 OpenRouter / OpenAI 路徑）處理翻譯請求。</li>
+        </ul>
+        <p>你使用翻譯功能時，相關文本會傳送至 AI 供應商處理。我們會盡可能採用不將 API 請求用於模型訓練的設定；第三方實際處理仍受其條款與政策約束。</p>
 
-    <section>
-        <h2>5. Your Rights</h2>
-        <p>
-            Because we do not collect personal identifiers, we generally do not hold data that can be "deleted" or "accessed" 
-            upon request. However, if you have provided feedback via email, you may request the deletion of that correspondence at any time.
-        </p>
-    </section>
+        <h3>5. 資料保存</h3>
+        <p>帳戶與內容資料會保留至你刪除內容或要求刪除帳戶為止。你可在 App 內刪除部分內容（例如專案/章節）。若需完整刪除，請聯絡我們。</p>
 
-    <section class="contact-box">
-        <h2>6. Contact Us</h2>
-        <p>For inquiries regarding our privacy practices or your data, please reach out to us:</p>
-        <p><strong>Email:</strong> <a href="mailto:daogrovelabs@gmail.com">daogrovelabs@gmail.com</a></p>
-    </section>
-</main>
+        <h3>6. 資料分享</h3>
+        <p>我們不出售你的個人資料。僅在提供服務所需（如雲端與 AI 供應商）或法律要求時分享必要資料。</p>
 
-<footer>
-    &copy; 2026 DaoGrove Labs. All rights reserved.
-</footer>
+        <h3>7. 安全</h3>
+        <p>我們採取業界常見安全措施（包括傳輸加密）保護資料，但任何系統都無法保證 100% 絕對安全。</p>
 
-</body>
+        <h3>8. 你的權利</h3>
+        <p>依適用法律，你可能享有查詢、更正、刪除與撤回同意等權利。你可透過聯絡方式向我們提出請求。</p>
+
+        <h3>9. 兒童隱私</h3>
+        <p>本服務不以未達法定年齡之兒童為主要對象。若你認為兒童在未經同意下提供資料，請聯絡我們。</p>
+
+        <h3>10. 政策更新</h3>
+        <p>我們可能更新本政策。若有重大變更，將透過 App 或網站公告，並更新生效日期。</p>
+
+        <h3>11. 聯絡我們</h3>
+        <p>Email: <a href="mailto:daogrovelabs@gmail.com">daogrovelabs@gmail.com</a></p>
+      </section>
+
+      <section class="lang-block">
+        <h2>English</h2>
+        <p><strong>Gumai Jinsheng Privacy Policy</strong></p>
+        <p class="muted">Operator: DaoGrove Labs (“we”, “our”, “us”)</p>
+
+        <h3>1. Introduction</h3>
+        <p>This Policy explains how we collect, use, store, and protect data when you use Gumai Jinsheng.</p>
+
+        <h3>2. Data We Collect</h3>
+        <ul>
+          <li>Account data: email address and authentication-related identifiers.</li>
+          <li>Your password is chosen by you; we do not store plaintext passwords in-app. Authentication is handled by our auth provider.</li>
+          <li>Optional profile data: avatar image and display name if provided.</li>
+          <li>Content data: text you input/upload, projects, chapters, translations, and edits.</li>
+          <li>Usage/subscription data: plan tier, quota, consumed characters, and usage events.</li>
+          <li>Technical data: session data and operational logs (e.g., error/security logs).</li>
+        </ul>
+
+        <h3>3. How We Use Data</h3>
+        <ul>
+          <li>To create and manage accounts.</li>
+          <li>To provide parsing and AI translation features.</li>
+          <li>To store project/chapter content for ongoing use.</li>
+          <li>To enforce subscription and quota controls.</li>
+          <li>To maintain reliability, debugging, and abuse prevention.</li>
+        </ul>
+
+        <h3>4. Third-Party Services and AI Processing</h3>
+        <p>We use third-party services, including but not limited to:</p>
+        <ul>
+          <li>Supabase (authentication, database, storage).</li>
+          <li>AI inference providers (e.g., OpenRouter/OpenAI pathway) for translation requests.</li>
+        </ul>
+        <p>When you use translation features, relevant text is sent to AI providers for processing. Where available, we configure providers to avoid training on API data; actual handling remains subject to each provider’s terms and policies.</p>
+
+        <h3>5. Data Retention</h3>
+        <p>Account and content data are retained until deleted by you or removed upon account deletion request. Some data can be deleted in-app (for example, projects/chapters).</p>
+
+        <h3>6. Data Sharing</h3>
+        <p>We do not sell personal data. We share only what is necessary to provide the service or comply with legal obligations.</p>
+
+        <h3>7. Security</h3>
+        <p>We use standard safeguards, including encrypted transmission in transit. No system is 100% secure.</p>
+
+        <h3>8. Your Rights</h3>
+        <p>Depending on applicable law, you may have rights to access, correct, delete, or withdraw consent. Contact us to make a request.</p>
+
+        <h3>9. Children’s Privacy</h3>
+        <p>The service is not primarily directed to children below the applicable minimum age. If you believe a child provided data without proper consent, contact us.</p>
+
+        <h3>10. Policy Updates</h3>
+        <p>We may update this Policy from time to time. Material changes will be announced in-app or on our website with an updated effective date.</p>
+
+        <h3>11. Contact</h3>
+        <p>Email: <a href="mailto:daogrovelabs@gmail.com">daogrovelabs@gmail.com</a></p>
+      </section>
+
+      <p class="foot">
+        Brand: 古脈今聲 (Gumai Jinsheng) · DaoGrove Labs
+      </p>
+    </main>
+  </body>
 </html>
